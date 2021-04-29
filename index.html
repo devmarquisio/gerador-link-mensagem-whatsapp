@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Whatsapp Link Message</title>
+</head>
+<body>
+  
+
+  <header>
+    <h1>Gere seu link de mensagem para whatsapp</h1>
+  </header>
+
+  <main>
+    <div class="content">
+      <textarea name="" id="text_message" cols="30" rows="5" placeholder="Digite sua mensagem..."></textarea>
+     
+  
+      <div>
+        <input type="text" name="" id="phone_number" placeholder="ddd+numero 31999999999">
+        <input type="button" value="Gerar link" onclick="getPhoneAndText()" class="font-style">
+      </div>
+      <input type="text" name="" id="genered_link" >
+      <button id="button_copy" class="font-style" >Copiar Link <img src="./clip.svg" alt="" width="10px"></button>
+    </div>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
